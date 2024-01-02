@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<body>
+  <section class="login">
+    <div class="kotak_login">
+      <div class="kiri">
+        <div class="beranda"><a href="../HOMEPAGE/homepage.html" style="text-decoration: none; color: black; font-weight: bold;"><img src="gambar/beranda.png" alt="">HOMEPAGE</a></div>
+        <div class="isi_kiri">
+          <form name="formLogin" action="../indek.html" method="post" onsubmit="return validateForm()">
+            <h3>Login Member Staticshoe</h3>
+            <input name="username" class="form-control" type="text" placeholder="USERNAME" required maxlength="20" minlength="4">
+            <input name="password" type="password" placeholder="PASSWORD">
+            <p>Don't have an account?<a href="../Registrasi/regis.html"> Create One </a></p>
+            <button type="submit" class="submit" onclick="window.location = '#';">LET'S GO</button>
+            
+          </form>
+        </div>
+      </div>
+      <div class="kanan">
+        <div class="teks_kanan">
+          <h2>STATICSHOE</h2>
+          <h5>Official Website</h5>
+        </div>
+        <div class="logo_stc"><img src="gambar/stc.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <script>
+        function validateForm() {
+            if (document.forms["formLogin"]["username"].value == "") {
+                alert("Username Tidak Boleh Kosong");
+                document.forms["formLogin"]["nama"].focus();
+                return false;
+            }
+            if (document.forms["formLogin"]["password"].value == "") {
+                alert("Password Tidak Boleh Kosong");
+                document.forms["formLogin"]["password"].focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

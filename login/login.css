@@ -1,0 +1,113 @@
+img {
+  width: 100%;
+}
+.login {
+  height: 1000px;
+  width: 100%;
+  background: radial-gradient(#332042, tan);
+  position: relative;
+}
+.kotak_login {
+  width: 1050px;
+  height: 600px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+.kotak_login .kiri {
+  width: 41%;
+  height: 100%;
+  padding: 25px 25px;
+}
+.kotak_login .kanan {
+  width: 59%;
+  height: 100%;
+}
+
+.kiri .isi_kiri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 73%;
+  margin: auto;
+}
+
+.kiri h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.kiri input {
+  border: none;
+  width: 80%;
+  margin: 15px 0px;
+  border-bottom: 1px solid #4f30677d;
+  padding: 7px 9px;
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.kiri {
+  background: linear-gradient(#dcd7e0, #fff);
+}
+
+.submit {
+  border: none;
+  padding: 15px 70px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  background: olive;
+  color: #fff;
+  font-weight: bold;
+}
+
+.kanan {
+  background: url(https://i.pinimg.com/736x/f6/c9/4e/f6c94e0d441a354c8f95dfdafd898014.jpg);
+  position: relative;
+}
+
+.kanan .teks_kanan {
+  height: 100%;
+  color: olive;
+  position: relative;
+}
+.teks_kanan h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.teks_kanan h5 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.kanan .logo_stc {
+  position: relative;
+  width: 70px;
+  height: 10px;
+  background: #fff0;
+  left: 50%;
+  bottom: 70px;
+}
+.beranda img {
+  width: 28px;
+  padding-right: 7px;
+  margin-top: -3px;
+}
